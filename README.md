@@ -6,7 +6,7 @@ It is designed to present academic background, skills, and experience in a profe
 
 Features:
 
-- Light / Dark Mode Toggle**
+- Light / Dark Mode Toggle
 - Downloadable CV (Print → Save as PDF)
 - Subtle animations for better user experience**
 - Contact form (email delivery via Formspree)
