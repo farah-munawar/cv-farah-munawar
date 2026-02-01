@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.divider {
+  height: 2px;
+  margin: 15px 0 25px;
+  border-top: 2px solid #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+  background-color: #fff;
+  padding: 40px;
+  margin: auto;
+}
+
+
+.cv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.header-left h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.header-right {
+  text-align: right;
+  font-size: 14px;
+}
+
+.header-right a {
+  color: #132efb;
+  text-decoration-line: underline;
+}
+
+
+section {
+  margin-bottom: 25px;
+}
+
+section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.role {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+ul {
+  margin-left: 32px;
+  margin-bottom: 10px;
+}
+
+ul li {
+  font-size: 14.5px;
+  margin-bottom: 5px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-position:inside;
+}
+
+.skills li {
+  width: 32%;
+}
+
+
+footer {
+  text-align:end;
+  font-size: 13px;
+  color: #555;
+  margin-top: 40px;
+ 
+}
+
+
+
+
+
+
+
+
+body {
+  background-color: #ffffff;
+  color: #222;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark section h2,
+body.dark p,
+body.dark li,
+body.dark footer {
+  color: #f1f1f1;
+}
+
+body.dark a {
+  color: #6ea8ff;
+}
+
+#themeToggle {
+  padding: 8px 14px;
+  font-size: 13px;
+  border: 1px solid #333;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
+}
+.cv-btn {
+  padding: 8px 14px;
+  font-size: 13px;
+  border: 1px solid #333;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.cv-btn:hover {
+  background: #f2f2f2;
+}
+
+@media print {
+  button,
+  #themeToggle,
+  .cv-btn{
+    display: none;
+  }
+  body {
+    padding: 0;
+  }
+}
+
+
+
+html {
+  animation: fadeIn 0.7s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skills li {
+  transition: transform 0.2s ease;
+}
+
+.skills li:hover {
+  transform: translateY(-3px);
+}
+
+
+
+
+
+
+form {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+form button {
+  padding: 8px;
+  border: 1px solid #333;
+  background: #fff;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #f2f2f2;
+}
+

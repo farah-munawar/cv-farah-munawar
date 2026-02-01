@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <button id="themeToggle">Dark Mode</button>
+<button onclick="window.print()" class="cv-btn">Download CV</button>
+<hr class="divider">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farah Munawar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="cv-header">
+    <div class="header-left">
+      <h1>Farah Munawar</h1>
+    </div>
+
+    <div class="header-right">
+      <p>Lahore, Pakistan</p>
+      <p>+92 336 8424248</p>
+      <p>
+        <a href="mailto:farahmunawar04@gmail.com">farahmunawar04@gmail.com</a>
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/farahmunawar04" target="_blank">
+          www.linkedin.com/in/farahmunawar04
+        </a>
+      </p>
+    </div>
+  </header>
+  <section>
+    <h2>PROFESSIONAL SUMMARY</h2>
+    <p>
+      A Computer Science student with a strong foundation in programming, problem-solving, and media
+      coverage. Passionate about technology and entrepreneurship. Experienced in leadership roles
+      within media societies, environmental projects, and education programs. Proficient in C++,
+      object-oriented programming, data structures, SQL, Software & Mobile Application Development and database systems, with additional skills
+      in digital photography. Always open to new opportunities and collaborations, thrives in team
+      environments, and is committed to continuous learning, innovation, and making a positive
+      contribution.
+    </p>
+  </section>
+
+  <section>
+    <h2>WORK EXPERIENCE</h2>
+
+    <p class="role">
+      <b>Vice President, Media Society – Beaconhouse (2020–2021)</b><br>
+      Lahore, Pakistan
+    </p>
+    <ul>
+      <li>Led and coordinated media-related activities, organising multiple successful events including Tabeer-e-Aks.</li>
+      <li>Managed a team, overseeing content creation and event execution to ensure high-quality media coverage.</li>
+      <li>Fostered a creative environment, significantly enhancing outreach and engagement.</li>
+    </ul>
+
+    <p class="role">
+      <b>Internship Trainee – WWF (2020)</b><br>
+      Lahore, Pakistan
+    </p>
+    <ul>
+      <li>Developed an eco-friendly business plan to convert waste into sustainable products.</li>
+      <li>Contributed to environmental awareness and sustainability initiatives.</li>
+    </ul>
+
+    <p class="role">
+      <b>Student Volunteer – Project Bunyaad, LUMS (2022)</b><br>
+      Lahore, Pakistan
+    </p>
+    <ul>
+      <li>Taught at an underprivileged school and supported educational development.</li>
+      <li>Assisted in curriculum planning and student mentorship.</li>
+    </ul>
+
+    <p class="role">
+      <b>Photographer & Coordinator – TEDxFAST (2024)</b><br>
+      Lahore, Pakistan
+    </p>
+    <ul>
+      <li>Served as official photographer, capturing key moments and ensuring high-quality media coverage.</li>
+      <li>Coordinated event logistics and managed photography workflows.</li>
+    </ul>
+
+    <p class="role">
+      <b>Sports Team Member – Beaconhouse (2015–2021)</b><br>
+      Lahore, Pakistan
+    </p>
+    <ul>
+      <li>Represented the school in sports competitions, winning multiple medals.</li>
+      <li>Demonstrated teamwork, discipline, and perseverance.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>EDUCATION & QUALIFICATIONS</h2>
+
+    <p>
+      <b>Bachelor of Science in Computer Science (2023–Present)</b><br>
+      National University of Computer and Emerging Sciences (NUCES)
+    </p>
+
+    <p>
+      <b>A-Levels (2020–2022)</b><br>
+      Beaconhouse — Mathematics, Computer Science, Economics
+    </p>
+
+    <p>
+      <b>O-Levels (2017–2020)</b><br>
+      Beaconhouse
+    </p>
+
+    <p>
+      <b>Summer Camp – Digital Photography (2023)</b><br>
+      National College of Arts (NCA)
+    </p>
+  </section>
+
+  <section>
+    <h2>CORE SKILLS</h2>
+    <ul class="skills">
+      <li>Problem-Solving</li>
+      <li>Critical Thinking</li>
+      <li>C++ Programming</li>
+      <li>Object-Oriented Programming</li>
+      <li>Data Structures</li>
+      <li>SQL & Database Systems</li>
+      <li>Software Mobile Development</li>
+      <li>Java Programming</li>
+      <li>Media Coverage</li>
+      <li>Event Coordination</li>
+      <li>Leadership</li>
+      <li>Digital Photography</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>TECHNICAL & IT SKILLS</h2>
+    <ul class="skills">
+      <li>C++</li>
+      <li>Python</li>
+      <li>SQL</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Java</li>
+      <li>JavaScript</li>
+      <li>Android Development</li>
+      <li>GitHub</li>
+      <li>Visual Studio</li>
+      <li>VS Code</li>
+      <li>Microsoft Excel</li>
+      <li>PowerPoint</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>LANGUAGES</h2>
+    <p>English, Urdu, Punjabi</p>
+
+    <h2>INTERESTS</h2>
+    <p>
+      Technology, Entrepreneurship, Photography, Sports, Community Building,
+      Coding, Solving Puzzles, Crocheting
+    </p>
+  </section>
+<section>
+  <h2>CONTACT</h2>
+
+  <form action="https://formspree.io/f/yourFormID" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+  <footer>
+    <p>© 2026 Farah Munawar</p>
+  </footer>
+<script>
+  const toggleBtn = document.getElementById("themeToggle");
+
+  toggleBtn.addEventListener("click", function () {
+    document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+      toggleBtn.textContent = "Light Mode";
+    } else {
+      toggleBtn.textContent = "Dark Mode";
+    }
+  });
+</script>
+
+</body>
+</html>
