@@ -8,7 +8,7 @@ Features:
 
 - Light / Dark Mode Toggle
 - Downloadable CV (Print → Save as PDF)
-- Subtle animations for better user experience**
+- Subtle animations for better user experience
 - Contact form (email delivery via Formspree)
 
 
