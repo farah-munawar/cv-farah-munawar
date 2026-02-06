@@ -21,4 +21,5 @@ Technologies Used:
 
 Link:
 
-https://golden-lily-7e7215.netlify.app/
+https://cv-farah-munawar.vercel.app/
+
